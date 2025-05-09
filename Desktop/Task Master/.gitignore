@@ -1,0 +1,53 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+db.sqlite3
+media/
+
+# Entorno virtual (Virtual Environment)
+venv/
+env/,sd
+ENV/
+.venv/
+
+# Archivos de configuración del editor/IDE
+.idea/
+.vscode/
+
+# Archivos de configuración de OS
+.DS_Store   # macOS
+Thumbs.db   # Windows
+
+# Archivos de dependencias
+Pipfile.lock
+poetry.lock
+
+# Archivos de prueba y caché
+*.coverage
+*.pytest_cache/
+nosetests.xml
+coverage.xml
+
+# Archivos sensibles
+*.env
+venv/
+
+# Django
+*.pyc
+__pycache__/
+db.sqlite3
+
+# Node
+/frontend/node_modules
+/frontend/dist
